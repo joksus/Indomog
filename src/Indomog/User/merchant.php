@@ -8,6 +8,25 @@ class Merchant
 
 	private $email;
 
+	public function setId($id)
+	{
+		$this->id=$id;
+		return $this;
+	}
+
+	public function setName($name)
+	{
+		$this->name=$name;
+		return $this;
+	}
+
+	public function setEmail($email)
+	{
+		$this->email=$email;
+		return $this;
+	}
+	
+	
 	public function getId()
 	{
 		return $this->id;
@@ -22,4 +41,5 @@ class Merchant
 	{
 		return $this->email;
 	}
+
 }

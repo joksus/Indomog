@@ -6,8 +6,21 @@
         {
             "name": "Joko Susanto",
             "email": "joko.susanto@indomog.com"
+        },
+        {
+            "name": "Biyono",
+            "email": "siyono@indomog.com"
+        },
+        {
+            "name": "Sonny",
+            "email": "sonny@indomog.com"
         }
     ],
+    "autoload" : {
+        "psr-0" : {
+            "Indomog\\User\\" : "src/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {
 

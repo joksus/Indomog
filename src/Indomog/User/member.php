@@ -8,34 +8,19 @@ class Member
 
 	private $email;
 
-	public function getid()
-	{
-		return $this->id;
-	}
-
-	public function getname()
-	{
-		return $this->name;
-	}
-
-	public function getemail()
-	{
-		return $this->email;
-	}
-
-	public function setid()
+	public function setId()
 	{
 		$this->id = $id;
 		return $this;
 	}
 
-	public function setname()
+	public function setName()
 	{
 		$this->name = $name;
 		return $this;
 	}
 
-	public function setemail()
+	public function setEmail()
 	{
 		$this->email = $email;
 		return $this;

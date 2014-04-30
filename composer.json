@@ -1,0 +1,15 @@
+{
+    "name": "indomog/user",
+    "description": "User of Indomog",
+    "license": "private",
+    "authors": [
+        {
+            "name": "Joko Susanto",
+            "email": "joko.susanto@indomog.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}

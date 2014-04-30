@@ -29,12 +29,6 @@ class Member
 		return $this;
 	}
 
-	public function setid()
-	{
-		$this->id = $id;
-		return $this;
-	}
-
 	public function setname()
 	{
 		$this->name = $name;
